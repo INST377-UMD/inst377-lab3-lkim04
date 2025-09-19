@@ -1,0 +1,64 @@
+body {
+    background-color: beige;
+    font-family: Arial;
+}
+
+#bar {
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+#nav {
+    background-color: blue;
+    text-align: left;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#nav li a{
+    display: inline-block;
+    position: relative;
+    color: white;
+    padding: 10px;
+}
+
+#nav li a:hover {
+    font-size: 20px;
+}
+
+.main-container {
+    display: flex; 
+    margin-bottom: 5px;
+    gap: 10px;s
+}
+
+.main-content {
+    background-color: aqua;
+    color: black;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 5px;
+    width: 75%;
+}
+
+input[type = "text"]:focus {
+    width: 400px;
+}
+
+#sidebar {
+    background-color: pink;
+    border-radius: 15px;
+    border: 2px solid black;
+    text-align: left;
+
+}
+
+#sidebar:hover {
+    background-color: yellow;
+}

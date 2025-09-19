@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>INST377 Lab3</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+
+    <body>
+        <!--Header-->
+        <header id = "bar">
+            <h1>Lab 3 - Rock Paper Scissors</h1>
+        </header>
+
+        <!--Nav bar-->
+        <nav id="nav">
+            <ul>
+                <li><a href="https://www.google.com/">Google</a></li>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.microsoft.com/">Microsoft</a></li>
+            </ul>
+        </nav>
+
+        <!--Main Content Area-->
+        <div class = "main-container">
+            <div class = "main-content">
+                <p><b>Please select one of the following</p>
+                <form action = "/submit">
+                    <label for = "name">Name</label>
+                    <input type = "text" id = "name" required><br>
+                    
+                    <label for = "choice">Please choose</label>
+                    <select id = "choice" name = "choices">
+                        <option value = "rock">Rock</option>
+                        <option value = "paper">Paper</option>
+                        <option value = "scissor">Scissor</option>
+                    </select>
+
+                    <input type = "submit" value = "Submit">
+                </form>
+            </div>
+
+            <!--SideBar-->
+            <div id = "sidebar">
+                <p>Rules</p><br>
+                <p>You must choose Rock, Paper, or Scissors</p><br>
+                <p>The combos are as following: </p>
+                <ul>Rock beats Scissor</ul>
+                <ul>Scissors beats Paper</ul>
+                <ul>Paper beats Rock</ul>
+
+
+            </div>
+
+        </div>
+
+
+        <!--Footer-->
+        <footer id = "bar">
+            <p>this is a footer, maybe I should make it interesting, but I am pretty boring</p>
+        </footer>
+
+
+    </body>
+
+</html>
